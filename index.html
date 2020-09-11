@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Geographical Weather App</title>
+	<link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+	<body>
+		<div id="searchContainer"> <!-- search input and button -->
+			<input class="searchControl" type="text" placeholder="Enter a City Name or Zip" id="searchInput">
+			<button class="searchControl" id="searchBtn">Search</button>
+		</div>
+		<div id='welcome'>Welcome to <b>Team Django</b> Weather App</div>
+		<div id ='instruction'>Please use the Search Field to perform a "GLOBAL WEATHER SEARCH" either by <b>"Zip Code" or "City Name"</b></div>
+		<div id="weatherContainer">  <!-- Holds all the weather information -->
+			<div id="weatherDescription"> <!-- weather description -->
+				<h1 id="cityHeader"></h1> <!-- name of the city -->
+				<div id="weatherMain"> <!-- Contains the weather elements; temp, icon etc. -->
+						<div id="temperature"></div>
+						<div id="weatherDescriptionHeader"></div>
+						<div><img id="documentIconImg"></div> <!-- empty div to be used for icon -->
+						</div>
+					<hr> <!-- horizontal rule or thematic break -->
+					<!-- smaller details for weather description -->
+					<div id="windSpeed" class="button-details"></div> <br>
+					<div id="humidity" class="button-details"></div>
+					<div id="latitude" class="button-details"></div>
+					<div id="longitude" class="button-details"></div>
+				</div>
+			</div>
+		</div>
+
+		<script src="script2.js"></script>
+	</body>
+</html>
+
+<!-- c3b5cdabd69601848e0f6320a8054122 -->
