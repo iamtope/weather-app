@@ -1,0 +1,111 @@
+body{
+	background: url('back3.jpeg') no-repeat center center fixed; 
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	color: white;
+	text-shadow: 2px 2px 1px black;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	
+  	
+}
+#weatherContainer{
+	background-color: rgba(0, 0, 0, .25);
+	box-shadow: 1px 1px 5px black;
+	padding: 50px;
+	position: absolute;
+	border-radius: 10px;
+	visibility: hidden;
+}
+#weatherContainer h1{
+	margin: 5px
+	font-size: 42px;
+	font-family: "Palatino", "Palatino";
+}
+
+#searchContainer {
+	padding: 20px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+#searchContainer input {
+	width: 500px;
+}
+
+#searchContainer button {
+	background-color: rgb(1, 159, 198);
+	width: 60px;
+	height: 35px;
+	color: white;
+	font-size-adjust: all;
+}
+
+.searchControl {
+	box-shadow: 2px 2px 5px black;
+	border: none;
+	border-radius: 50px; 
+	padding: 7.5px;
+
+}
+
+#weatherMain{
+	display: block;
+	margin-bottom: 20px;
+}
+
+#weatherMain div{
+	display: inline-block;
+}
+
+#weatherDescriptionHeader{
+	font-size: 25px;
+	vertical-align: 25px;
+}
+#temperature{
+	font-size: 60px;
+	vertical-align: 25%
+}
+
+.button-details{
+	display: block;
+	font-size: 15px;
+	text-align: right;
+}
+
+hr{
+	margin-bottom: 20px
+}
+
+#cityHeader{
+	font-size: 80px;
+	font-family: Calibri;
+}
+
+#welcome{
+	vertical-align: 25px;
+	position: center;
+	padding-top: 300px;
+	padding-left: 250px;
+	font-size: 50px;
+	align-content: center;
+	color: #FFFCCF;
+	text-shadow: 2px 2px 5px #7D4427;
+	visibility: visible;
+}
+
+#instruction{
+	font-size: 20px;
+	vertical-align: 25px;
+	position: center;
+	padding-left: 200px;
+	align-content: center;
+	color: #FFFCCF;
+	text-shadow: 2px 2px 5px #7D4427;
+	visibility: visible;
+}
